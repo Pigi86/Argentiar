@@ -29,6 +29,28 @@ body {
     overflow-x: hidden;
 }
 
+.logo-mark {
+    width: 40px;
+    height: 40px;
+    background-image: url('images/favicon-512.png');
+    background-size: 45px;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 80% 0, 100% 20%, 100% 100%, 20% 100%, 0 80%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 8px;
+    left:8px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    margin-top: -25px;
+}
+
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
