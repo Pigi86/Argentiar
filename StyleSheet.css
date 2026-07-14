@@ -285,16 +285,11 @@ a {
 @media (max-width: 768px) {
     .view-stack {
         margin-top:30px;
-        
     }
 
     .curtain {
         transition: none;
         transform: none;
-    }
-
-    .site-footer {
-
     }
 }
 
@@ -725,7 +720,7 @@ a {
 @media (max-width: 768px) {
     .lightbox, .lightbox img {
         transition: none;
-        position: fixed;
+        position: relative;
         z-index: 2;
         font-family: 'IBM Plex Mono', monospace;
         font-size: 0.7rem;
