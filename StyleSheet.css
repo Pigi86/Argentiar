@@ -285,7 +285,7 @@ a {
 @media (max-width: 768px) {
     .view-stack {
         margin-top:30px;
-        width:100%;
+        
     }
 
     .curtain {
@@ -294,7 +294,7 @@ a {
     }
 
     .site-footer {
-        width: 100%;
+
     }
 }
 
